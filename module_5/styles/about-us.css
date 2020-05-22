@@ -1,0 +1,14 @@
+.about-us {
+  padding: 0 240px 0 43px;
+  margin-bottom: 56px;
+}
+
+.about-us__title {
+  padding-left: 0;
+  margin-bottom: 9px;
+}
+
+.about-us__text {
+  line-height: 32px;
+  color: #666666;
+} 

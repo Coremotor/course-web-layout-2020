@@ -5,7 +5,7 @@
 .header__inner {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 26px;
 }
 
 .header__link-main {
@@ -30,6 +30,7 @@
 .header__inner-navigation-and-form {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 11px 21px;
   background-color: #fff;
   border-radius: 12px;
@@ -37,8 +38,6 @@
 
 .header__navigation {
   width: 55%;
-  margin-right: auto;
-
 }
 
 .header__list {
@@ -47,11 +46,15 @@
   justify-content: space-between;
 }
 
+.header__list-item {
+
+}
+
 .header__form {
   position: relative;
   display: flex;
   align-items: center;
-  width: 30%;
+  width: 32%;
 
 }
 

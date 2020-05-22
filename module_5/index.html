@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./styles/container.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/reservation.css">
+    <link rel="stylesheet" href="./styles/about-us.css">
+    <link rel="stylesheet" href="./styles/services.css">
   </head>
 
   <body>
@@ -55,11 +58,89 @@
           </ul>
         </nav>
 
-        <form class="header__form" action="" method="get">
+        <form class="header__form" action="https://echo.htmlacademy.ru/" method="get">
           <input class="header__form-input" name="headerFormInput" placeholder="Поиск" type="search">
           <button class="header__form-btn" type="submit" aria-label="Кнопка поиска"></button>
         </form>
       </div>
     </header>
+
+    <section class="reservation container">      
+      <form class="reservation-form" action="https://echo.htmlacademy.ru/" method="get">
+        <h2 class="title reservation-form__title">Быстрая бронь</h2>
+
+        <input class="reservation-form__input" name="city" placeholder="Город" type="text">
+        <input class="reservation-form__input" name="category" placeholder="Категория номера" type="text">
+        <input class="reservation-form__input" name="date" placeholder="Дата заселения" type="text">
+        <input class="reservation-form__input" name="nights" placeholder="Количество ночей" type="text">
+        <input class="reservation-form__input" name="guests" placeholder="Количество гостей" type="text">
+        <button class="btn reservation-form__btn">Найти номер</button>
+
+        <a href="#" class="reservation-form__link">9 756<span class="reservation-form__link-text">предложений доступно</span></a>
+      </form>
+
+      <article class="special-offer">
+        <h2 class="title special-offer__title">Спецпредложение</h2>
+
+        <img class="special-offer__img" src="./img/content/jpg/content_img_special_offer.jpg" alt="Спецпредложение">
+
+        <div class="special-offer__inner-text">
+          <p class="special-offer__text">Номера категории люкс</p>
+
+          <span class="special-offer__price">от 5 000 р</span>
+
+          <a class="special-offer__details-link" href="#">Подробнее</a>
+        </div>        
+      </article>
+    </section>
+
+    <section class="about-us container">
+      <h2 class="title about-us__title">О нас</h2>
+      <p class="about-us__text">Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации требуют определения и уточнения существенных финансовых и административных условий.</p>
+    </section>
+
+    <section class="services container">
+
+      <h1 class="title services__title">Услуги</h1>
+
+      <ul class="services__list list-style-reset">   
+        <li class="services__item">   
+          <img class="services__item-img" src="./img/content/jpg/content_img_services_exclusive.jpg" alt="Эксклюзивное обслуживание">  
+          
+          <article class="services__item-article">            
+            <h2 class="services__item-title"><a class="services__item-link" href="#">Эксклюзивное обслуживание</a></h2>
+            <p class="services__item-text">Равным образом постоянный количественный рост и сфера нашей активности</p>
+          </article>
+        </li>
+
+        <li class="services__item">   
+          <img class="services__item-img" src="./img/content/jpg/content_img_services_rent.jpg" alt="Аренда банкетных залов">  
+          
+          <article class="services__item-article">            
+            <h2 class="services__item-title"><a class="services__item-link" href="#">Аренда банкетных залов</a></h2>
+            <p class="services__item-text">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
+          </article>
+        </li>
+
+        <li class="services__item">   
+          <img class="services__item-img" src="./img/content/jpg/content_img_services_pool.jpg" alt="Сауны, бассейны, бани, фитнес-залы">  
+          
+          <article class="services__item-article">            
+            <h2 class="services__item-title"><a class="services__item-link" href="#">Сауны, бассейны, бани, фитнес-залы</a></h2>
+            <p class="services__item-text">Не следует, однако забывать, что начало повседневной работы по формированию</p>
+          </article>
+        </li>
+
+        <li class="services__item">   
+          <img class="services__item-img" src="./img/content/jpg/content_img_services_security.jpg" alt="Охраняемые автомобильные стоянки">  
+          
+          <article class="services__item-article">            
+            <h2 class="services__item-title"><a class="services__item-link" href="#">Охраняемые автомобильные стоянки</a></h2>
+            <p class="services__item-text">Не следует, однако забывать, что начало повседневной работы по формированию </p>
+          </article>
+        </li>
+
+      </ul>
+    </section>
   </body>
 </html>
