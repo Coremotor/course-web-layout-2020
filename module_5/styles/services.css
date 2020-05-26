@@ -1,5 +1,5 @@
 .services {
-margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 
 .services__title {
@@ -12,7 +12,6 @@ margin-bottom: 70px;
   grid-row-gap: 16px;
   grid-column-gap: 24px;
 }
-
 
 .services__item-article {
   line-height: 32px;
@@ -34,11 +33,9 @@ margin-bottom: 70px;
 
 .services__item-link:after {
   content: url("../img/after_arrow.png");
-
   margin-left: 11px;
 }
 
 .services__item-text {
   color: #333333;
 }
-

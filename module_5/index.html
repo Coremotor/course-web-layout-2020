@@ -1,146 +1,399 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lagoona - сеть отелей</title>
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./fonts/fonts.css">
-    <link rel="stylesheet" href="./styles/container.css">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/reservation.css">
-    <link rel="stylesheet" href="./styles/about-us.css">
-    <link rel="stylesheet" href="./styles/services.css">
-  </head>
 
-  <body>
-    <header class="header container">
-      <div class="header__inner">
-        <a class="header__link-main" href="/">
-          <img class="header__link-main-img" src="./img/logo.png" alt="Логотип сети отелей">
-        </a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lagoona - сеть отелей</title>
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./fonts/fonts.css">
+  <link rel="stylesheet" href="./styles/container.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/reservation.css">
+  <link rel="stylesheet" href="./styles/about-us.css">
+  <link rel="stylesheet" href="./styles/services.css">
+  <link rel="stylesheet" href="./styles/advantages.css">
+  <link rel="stylesheet" href="./styles/accommodation.css">
+</head>
 
-        <a class="header__phone" href="tel:+74953225448">+7 495 322 54 48</a>
+<body>
+  <header class="header container">
+    <div class="header__inner">
+      <a class="header__link-main" href="/">
+        <img class="header__link-main-img" src="./img/logo.png" alt="Логотип сети отелей">
+      </a>
 
-        <a class="header__link-personal-area" href="#">
-          <img class="header__link-personal-area-img" src="./img/personal_area_enter.png" alt="Ссылка на вход в личный кабинет">
-        </a>
-      </div>
+      <a class="header__phone" href="tel:+74953225448">+7 495 322 54 48</a>
 
-      <div class="header__inner-navigation-and-form">
-        <nav class="header__navigation">
-          <ul class="header__list list-style-reset">
-            <li class="header__list-item">
-              <a href="#">О нас</a>
-            </li>
+      <a class="header__link-personal-area" href="#">
+        <img class="header__link-personal-area-img" src="./img/personal_area_enter.png"
+          alt="Ссылка на вход в личный кабинет">
+      </a>
+    </div>
 
-            <li class="header__list-item">
-              <a href="#">Услуги</a>
-            </li>
+    <div class="header__inner-navigation-and-form">
+      <nav class="header__navigation">
+        <ul class="header__list list-style-reset">
+          <li class="header__list-item">
+            <a href="#">О нас</a>
+          </li>
 
-            <li class="header__list-item">
-              <a href="#">Приемущества</a>
-            </li>
+          <li class="header__list-item">
+            <a href="#">Услуги</a>
+          </li>
 
-            <li class="header__list-item">
-              <a href="#">Размещение</a>
-            </li>
+          <li class="header__list-item">
+            <a href="#">Приемущества</a>
+          </li>
 
-            <li class="header__list-item">
-              <a href="#">Блог</a>
-            </li>
-            
-            <li class="header__list-item">
-              <a href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
+          <li class="header__list-item">
+            <a href="#">Размещение</a>
+          </li>
 
-        <form class="header__form" action="https://echo.htmlacademy.ru/" method="get">
-          <input class="header__form-input" name="headerFormInput" placeholder="Поиск" type="search">
-          <button class="header__form-btn" type="submit" aria-label="Кнопка поиска"></button>
-        </form>
-      </div>
-    </header>
+          <li class="header__list-item">
+            <a href="#">Блог</a>
+          </li>
 
-    <section class="reservation container">      
-      <form class="reservation-form" action="https://echo.htmlacademy.ru/" method="get">
-        <h2 class="title reservation-form__title">Быстрая бронь</h2>
+          <li class="header__list-item">
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
 
-        <input class="reservation-form__input" name="city" placeholder="Город" type="text">
-        <input class="reservation-form__input" name="category" placeholder="Категория номера" type="text">
-        <input class="reservation-form__input" name="date" placeholder="Дата заселения" type="text">
-        <input class="reservation-form__input" name="nights" placeholder="Количество ночей" type="text">
-        <input class="reservation-form__input" name="guests" placeholder="Количество гостей" type="text">
-        <button class="btn reservation-form__btn">Найти номер</button>
-
-        <a href="#" class="reservation-form__link">9 756<span class="reservation-form__link-text">предложений доступно</span></a>
+      <form class="header__form" action="https://echo.htmlacademy.ru/" method="get">
+        <input class="header__form-input" name="headerFormInput" placeholder="Поиск" type="search">
+        <button class="header__form-btn" type="submit" aria-label="Кнопка поиска"></button>
       </form>
+    </div>
+  </header>
 
-      <article class="special-offer">
-        <h2 class="title special-offer__title">Спецпредложение</h2>
+  <section class="reservation container">
+    <form class="reservation-form" action="https://echo.htmlacademy.ru/" method="get">
+      <h2 class="title reservation-form__title">Быстрая бронь</h2>
 
-        <img class="special-offer__img" src="./img/content/jpg/content_img_special_offer.jpg" alt="Спецпредложение">
+      <input class="reservation-form__input" name="city" placeholder="Город" type="text">
+      <input class="reservation-form__input" name="category" placeholder="Категория номера" type="text">
+      <input class="reservation-form__input" name="date" placeholder="Дата заселения" type="text">
+      <input class="reservation-form__input" name="nights" placeholder="Количество ночей" type="text">
+      <input class="reservation-form__input" name="guests" placeholder="Количество гостей" type="text">
+      <button class="btn reservation-form__btn">Найти номер</button>
 
-        <div class="special-offer__inner-text">
-          <p class="special-offer__text">Номера категории люкс</p>
+      <a href="#" class="reservation-form__link">9 756<span class="reservation-form__link-text">предложений
+          доступно</span></a>
+    </form>
 
-          <span class="special-offer__price">от 5 000 р</span>
+    <article class="special-offer">
+      <h2 class="title special-offer__title">Спецпредложение</h2>
 
-          <a class="special-offer__details-link" href="#">Подробнее</a>
-        </div>        
-      </article>
-    </section>
+      <img class="special-offer__img" src="./img/content/jpg/content_img_special_offer.jpg" alt="Спецпредложение">
 
-    <section class="about-us container">
-      <h2 class="title about-us__title">О нас</h2>
-      <p class="about-us__text">Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации требуют определения и уточнения существенных финансовых и административных условий.</p>
-    </section>
+      <div class="special-offer__inner-text">
+        <p class="special-offer__text">Номера категории люкс</p>
 
-    <section class="services container">
+        <span class="special-offer__price">от 5 000 р</span>
 
-      <h1 class="title services__title">Услуги</h1>
+        <a class="special-offer__details-link" href="#">Подробнее</a>
+      </div>
+    </article>
+  </section>
 
-      <ul class="services__list list-style-reset">   
-        <li class="services__item">   
-          <img class="services__item-img" src="./img/content/jpg/content_img_services_exclusive.jpg" alt="Эксклюзивное обслуживание">  
-          
-          <article class="services__item-article">            
-            <h2 class="services__item-title"><a class="services__item-link" href="#">Эксклюзивное обслуживание</a></h2>
-            <p class="services__item-text">Равным образом постоянный количественный рост и сфера нашей активности</p>
-          </article>
-        </li>
+  <section class="about-us container">
+    <h2 class="title about-us__title">О нас</h2>
+    <p class="about-us__text">Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за
+      собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные
+      соображения высшего порядка, а также дальнейшее развитие различных форм деятельности представляет собой интересный
+      эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся
+      структура организации требуют определения и уточнения существенных финансовых и административных условий.</p>
+  </section>
 
-        <li class="services__item">   
-          <img class="services__item-img" src="./img/content/jpg/content_img_services_rent.jpg" alt="Аренда банкетных залов">  
-          
-          <article class="services__item-article">            
-            <h2 class="services__item-title"><a class="services__item-link" href="#">Аренда банкетных залов</a></h2>
-            <p class="services__item-text">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
-          </article>
-        </li>
+  <section class="services container">
+    <h1 class="title services__title">Услуги</h1>
 
-        <li class="services__item">   
-          <img class="services__item-img" src="./img/content/jpg/content_img_services_pool.jpg" alt="Сауны, бассейны, бани, фитнес-залы">  
-          
-          <article class="services__item-article">            
-            <h2 class="services__item-title"><a class="services__item-link" href="#">Сауны, бассейны, бани, фитнес-залы</a></h2>
-            <p class="services__item-text">Не следует, однако забывать, что начало повседневной работы по формированию</p>
-          </article>
-        </li>
+    <ul class="services__list list-style-reset">
+      <li class="services__item">
+        <img class="services__item-img" src="./img/content/jpg/content_img_services_exclusive.jpg"
+          alt="Эксклюзивное обслуживание">
 
-        <li class="services__item">   
-          <img class="services__item-img" src="./img/content/jpg/content_img_services_security.jpg" alt="Охраняемые автомобильные стоянки">  
-          
-          <article class="services__item-article">            
-            <h2 class="services__item-title"><a class="services__item-link" href="#">Охраняемые автомобильные стоянки</a></h2>
-            <p class="services__item-text">Не следует, однако забывать, что начало повседневной работы по формированию </p>
-          </article>
-        </li>
+        <article class="services__item-article">
+          <h2 class="services__item-title"><a class="services__item-link" href="#">Эксклюзивное обслуживание</a></h2>
+          <p class="services__item-text">Равным образом постоянный количественный рост и сфера нашей активности</p>
+        </article>
+      </li>
 
-      </ul>
-    </section>
-  </body>
+      <li class="services__item">
+        <img class="services__item-img" src="./img/content/jpg/content_img_services_rent.jpg"
+          alt="Аренда банкетных залов">
+
+        <article class="services__item-article">
+          <h2 class="services__item-title"><a class="services__item-link" href="#">Аренда банкетных залов</a></h2>
+          <p class="services__item-text">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных
+            форм.</p>
+        </article>
+      </li>
+
+      <li class="services__item">
+        <img class="services__item-img" src="./img/content/jpg/content_img_services_pool.jpg"
+          alt="Сауны, бассейны, бани, фитнес-залы">
+
+        <article class="services__item-article">
+          <h2 class="services__item-title"><a class="services__item-link" href="#">Сауны, бассейны, бани,
+              фитнес-залы</a></h2>
+          <p class="services__item-text">Не следует, однако забывать, что начало повседневной работы по формированию</p>
+        </article>
+      </li>
+
+      <li class="services__item">
+        <img class="services__item-img" src="./img/content/jpg/content_img_services_security.jpg"
+          alt="Охраняемые автомобильные стоянки">
+
+        <article class="services__item-article">
+          <h2 class="services__item-title"><a class="services__item-link" href="#">Охраняемые автомобильные стоянки</a>
+          </h2>
+          <p class="services__item-text">Не следует, однако забывать, что начало повседневной работы по формированию
+          </p>
+        </article>
+      </li>
+    </ul>
+  </section>
+
+  <section class="advantages container">
+    <h2 class="title advantages__title">Преимущества</h2>
+
+    <ul class="advantages__list list-style-reset">
+      <li class="advantages__item">Идейные соображения высшего порядка, а также постоянный количественный рост</li>
+      <li class="advantages__item">Значимость этих проблем настолько очевидна, что вопрос остается открытым</li>
+      <li class="advantages__item">Таким образом реализация плановых заданий играет важную роль для понимания</li>
+      <li class="advantages__item">Повседневная практика показывает, что сложившаяся структура организации</li>
+      <li class="advantages__item">Равным образом рамки и место обучения кадров способствует подготовки сотрудника</li>
+      <li class="advantages__item">Консультация с активом влечет за собой процесс внедрения услуг нашего сервиса</li>
+      <li class="advantages__item">Повседневная практика показывает, что дальнейшее развитие различных форм</li>
+      <li class="advantages__item">Значимость этого настолько очевидна, что консультация наших экспертов помогает</li>
+    </ul>
+  </section>
+
+  <section class="accommodation container">
+    <h2 class="title accommodation__title">Размещение</h2>
+
+    <ul class="accommodation__list list-style-reset">
+      <li class="accommodation__item">
+        <img src="./img/content/jpg/content_img_accommodation_espanola.jpg" alt="Барселона, Испания"
+          class="accommodation__img">
+
+        <article class="accommodation__article">
+          <p class="accommodation__text">от
+            <span class="accommodation__price">4 698 р </span>
+            <span class="accommodation__text-night">/ ночь</span>
+          </p>
+
+          <ul class="accommodation__rate-list list-style-reset">
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_grey"></li>
+          </ul>
+
+          <h3 class="accommodation__article-title">Lagoona española</h3>
+
+          <p class="accommodation__location">Барселона, Испания</p>
+
+          <button class="btn accommodation__btn">Номера</button>
+        </article>
+      </li>
+
+      <li class="accommodation__item">
+        <img src="./img/content/jpg/content_img_accommodation_son_tipicas.jpg" alt="Барселона, Испания"
+          class="accommodation__img">
+
+        <article class="accommodation__article">
+          <p class="accommodation__text">от
+            <span class="accommodation__price">5 148 р </span>
+            <span class="accommodation__text-night">/ ночь</span>
+          </p>
+
+          <ul class="accommodation__rate-list list-style-reset">
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_grey"></li>
+          </ul>
+
+          <h3 class="accommodation__article-title">Lagoona son típicas</h3>
+
+          <p class="accommodation__location">Барселона, Испания</p>
+
+          <button class="btn accommodation__btn">Номера</button>
+        </article>
+      </li>
+
+      <li class="accommodation__item">
+        <img src="./img/content/jpg/content_img_accommodation_de_la_guerra.jpg" alt="Барселона, Испания"
+          class="accommodation__img">
+
+        <article class="accommodation__article">
+          <p class="accommodation__text">от
+            <span class="accommodation__price">6 254 р </span>
+            <span class="accommodation__text-night">/ ночь</span>
+          </p>
+
+          <ul class="accommodation__rate-list list-style-reset">
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+          </ul>
+
+          <h3 class="accommodation__article-title">Lagoona de la guerra</h3>
+
+          <p class="accommodation__location">Барселона, Испания</p>
+
+          <button class="btn accommodation__btn">Номера</button>
+        </article>
+      </li>
+
+      <li class="accommodation__item">
+        <img src="./img/content/jpg/content_img_accommodation_mentira.jpg" alt="Барселона, Испания"
+          class="accommodation__img">
+
+        <article class="accommodation__article">
+          <p class="accommodation__text">от
+            <span class="accommodation__price">6 320 р </span>
+            <span class="accommodation__text-night">/ ночь</span>
+          </p>
+
+          <ul class="accommodation__rate-list list-style-reset">
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+          </ul>
+
+          <h3 class="accommodation__article-title">Lagoona mentira piadosa</h3>
+
+          <p class="accommodation__location">Барселона, Испания</p>
+
+          <button class="btn accommodation__btn">Номера</button>
+        </article>
+      </li>
+
+      <li class="accommodation__item">
+        <img src="./img/content/jpg/content_img_accommodation_empujar.jpg" alt="Барселона, Испания"
+          class="accommodation__img">
+
+        <article class="accommodation__article">
+          <p class="accommodation__text">от
+            <span class="accommodation__price">6 457 р </span>
+            <span class="accommodation__text-night">/ ночь</span>
+          </p>
+
+          <ul class="accommodation__rate-list list-style-reset">
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_grey"></li>
+          </ul>
+
+          <h3 class="accommodation__article-title">Lagoona empujar la creatividad</h3>
+
+          <p class="accommodation__location">Барселона, Испания</p>
+
+          <button class="btn accommodation__btn">Номера</button>
+        </article>
+      </li>
+
+      <li class="accommodation__item">
+        <img src="./img/content/jpg/content_img_accommodation_el_retorno.jpg" alt="Барселона, Испания"
+          class="accommodation__img">
+
+        <article class="accommodation__article">
+          <p class="accommodation__text">от
+            <span class="accommodation__price">6 490 р </span>
+            <span class="accommodation__text-night">/ ночь</span>
+          </p>
+
+          <ul class="accommodation__rate-list list-style-reset">
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_grey"></li>
+          </ul>
+
+          <h3 class="accommodation__article-title">Lagoona el retorno</h3>
+
+          <p class="accommodation__location">Барселона, Испания</p>
+
+          <button class="btn accommodation__btn">Номера</button>
+        </article>
+      </li>
+
+      <li class="accommodation__item">
+        <img src="./img/content/jpg/content_img_accommodation_enfermo.jpg" alt="Барселона, Испания"
+          class="accommodation__img">
+
+        <article class="accommodation__article">
+          <p class="accommodation__text">от
+            <span class="accommodation__price">6 505 р </span>
+            <span class="accommodation__text-night">/ ночь</span>
+          </p>
+
+          <ul class="accommodation__rate-list list-style-reset">
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+          </ul>
+
+          <h3 class="accommodation__article-title">Lagoona enfermo terminó</h3>
+
+          <p class="accommodation__location">Барселона, Испания</p>
+
+          <button class="btn accommodation__btn">Номера</button>
+        </article>
+      </li>
+
+      <li class="accommodation__item">
+        <img src="./img/content/jpg/content_img_accommodation_suerte.jpg" alt="Барселона, Испания"
+          class="accommodation__img">
+
+        <article class="accommodation__article">
+          <p class="accommodation__text">от
+            <span class="accommodation__price">6 824 р </span>
+            <span class="accommodation__text-night">/ ночь</span>
+          </p>
+
+          <ul class="accommodation__rate-list list-style-reset">
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_gold"></li>
+            <li class="accommodation__rate-list-item accommodation__rate-list-item_grey"></li>
+          </ul>
+
+          <h3 class="accommodation__article-title">Lagoona suerte siguió siempre</h3>
+
+          <p class="accommodation__location">Барселона, Испания</p>
+
+          <button class="btn accommodation__btn">Номера</button>
+        </article>
+      </li>
+
+      <li class="accommodation__item">
+        <img src="./img/content/jpg/content_img_accommodation_all.jpg" alt="Все варианты" class="accommodation__img">
+
+        <a class="accommodation__link" href="#">Посмотреть все варианты</a>
+
+      </li>
+    </ul>
+  </section>
+
+
+</body>
+
 </html>

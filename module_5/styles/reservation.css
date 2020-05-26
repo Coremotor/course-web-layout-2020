@@ -4,7 +4,7 @@
   margin-bottom: 65px;
 }
 
-.reservation-form{
+.reservation-form {
   width: 44%;
 }
 
@@ -43,16 +43,12 @@
 
 .reservation-form__link {
   color: #cc9933;
-
 }
 
 .reservation-form__link-text {
   color: #999999;
   margin-left: 5px;
 }
-
-
-
 
 .special-offer {
   position: relative;
@@ -62,8 +58,6 @@
 .special-offer__title {
   margin-bottom: 21px;
 }
-
-
 
 .special-offer__inner-text {
   position: absolute;
@@ -92,6 +86,5 @@
 
 .special-offer__details-link:after {
   content: url("../img/after_arrow.png");
-
   margin-left: 6px;
 }
