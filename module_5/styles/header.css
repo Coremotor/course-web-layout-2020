@@ -1,5 +1,5 @@
 .header {
-  padding: 30px 0 71px;
+  padding: 30px 0 66px;
 }
 
 .header__inner {
@@ -19,7 +19,15 @@
 }
 
 .header__link-personal-area {
+  position: relative;
+  color: #cc9933;
   margin-left: auto;
+}
+
+.header__link-personal-area:before {
+  position: absolute;
+  left: -20px;
+  content: url("../img/login-arrow.png");
 }
 
 .header__inner-navigation-and-form {

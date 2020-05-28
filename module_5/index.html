@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./styles/container.css">
   <link rel="stylesheet" href="./styles/header.css">
   <link rel="stylesheet" href="./styles/reservation.css">
+  <link rel="stylesheet" href="./styles/special-offer.css">
   <link rel="stylesheet" href="./styles/about-us.css">
   <link rel="stylesheet" href="./styles/services.css">
   <link rel="stylesheet" href="./styles/advantages.css">
@@ -26,10 +27,7 @@
 
       <a class="header__phone" href="tel:+74953225448">+7 495 322 54 48</a>
 
-      <a class="header__link-personal-area" href="#">
-        <img class="header__link-personal-area-img" src="./img/personal_area_enter.png"
-          alt="Ссылка на вход в личный кабинет">
-      </a>
+      <a class="header__link-personal-area" href="#">Личный кабинет</a>
     </div>
 
     <div class="header__inner-navigation-and-form">
@@ -68,22 +66,24 @@
     </div>
   </header>
 
-  <section class="reservation container">
-    <form class="reservation-form" action="https://echo.htmlacademy.ru/" method="get">
-      <h2 class="title reservation-form__title">Быстрая бронь</h2>
+  <div class="wrapper container">
+    <section class="reservation">
+      <form class="reservation-form" action="https://echo.htmlacademy.ru/" method="get">
+        <h2 class="title reservation-form__title">Быстрая бронь</h2>
 
-      <input class="reservation-form__input" name="city" placeholder="Город" type="text">
-      <input class="reservation-form__input" name="category" placeholder="Категория номера" type="text">
-      <input class="reservation-form__input" name="date" placeholder="Дата заселения" type="text">
-      <input class="reservation-form__input" name="nights" placeholder="Количество ночей" type="text">
-      <input class="reservation-form__input" name="guests" placeholder="Количество гостей" type="text">
-      <button class="btn reservation-form__btn">Найти номер</button>
+        <input class="reservation-form__input" name="city" placeholder="Город" type="text">
+        <input class="reservation-form__input" name="category" placeholder="Категория номера" type="text">
+        <input class="reservation-form__input" name="date" placeholder="Дата заселения" type="text">
+        <input class="reservation-form__input" name="nights" placeholder="Количество ночей" type="text">
+        <input class="reservation-form__input" name="guests" placeholder="Количество гостей" type="text">
+        <button class="btn reservation-form__btn">Найти номер</button>
 
-      <a href="#" class="reservation-form__link">9 756<span class="reservation-form__link-text">предложений
-          доступно</span></a>
-    </form>
+        <a href="#" class="reservation-form__link">9 756<span class="reservation-form__link-text">предложений
+            доступно</span></a>
+      </form>
+    </section>
 
-    <article class="special-offer">
+    <section class="special-offer">
       <h2 class="title special-offer__title">Спецпредложение</h2>
 
       <img class="special-offer__img" src="./img/content/jpg/content_img_special_offer.jpg" alt="Спецпредложение">
@@ -95,8 +95,9 @@
 
         <a class="special-offer__details-link" href="#">Подробнее</a>
       </div>
-    </article>
-  </section>
+    </section>
+  </div>
+
 
   <section class="about-us container">
     <h2 class="title about-us__title">О нас</h2>
@@ -108,7 +109,7 @@
   </section>
 
   <section class="services container">
-    <h1 class="title services__title">Услуги</h1>
+    <h2 class="title services__title">Услуги</h2>
 
     <ul class="services__list list-style-reset">
       <li class="services__item">
@@ -116,7 +117,7 @@
           alt="Эксклюзивное обслуживание">
 
         <article class="services__item-article">
-          <h2 class="services__item-title"><a class="services__item-link" href="#">Эксклюзивное обслуживание</a></h2>
+          <h3 class="services__item-title"><a class="services__item-link" href="#">Эксклюзивное обслуживание</a></h3>
           <p class="services__item-text">Равным образом постоянный количественный рост и сфера нашей активности</p>
         </article>
       </li>
@@ -161,14 +162,14 @@
     <h2 class="title advantages__title">Преимущества</h2>
 
     <ul class="advantages__list list-style-reset">
-      <li class="advantages__item">Идейные соображения высшего порядка, а также постоянный количественный рост</li>
-      <li class="advantages__item">Значимость этих проблем настолько очевидна, что вопрос остается открытым</li>
-      <li class="advantages__item">Таким образом реализация плановых заданий играет важную роль для понимания</li>
-      <li class="advantages__item">Повседневная практика показывает, что сложившаяся структура организации</li>
-      <li class="advantages__item">Равным образом рамки и место обучения кадров способствует подготовки сотрудника</li>
-      <li class="advantages__item">Консультация с активом влечет за собой процесс внедрения услуг нашего сервиса</li>
-      <li class="advantages__item">Повседневная практика показывает, что дальнейшее развитие различных форм</li>
-      <li class="advantages__item">Значимость этого настолько очевидна, что консультация наших экспертов помогает</li>
+      <li class="advantages__item"><p>Идейные соображения высшего порядка, а также постоянный количественный рост</p></li>
+      <li class="advantages__item"><p>Значимость этих проблем настолько очевидна, что вопрос остается открытым</p></li>
+      <li class="advantages__item"><p>Таким образом реализация плановых заданий играет важную роль для понимания</p></li>
+      <li class="advantages__item"><p>Повседневная практика показывает, что сложившаяся структура организации</p></li>
+      <li class="advantages__item"><p>Равным образом рамки и место обучения кадров способствует подготовки сотрудника</p></li>
+      <li class="advantages__item"><p>Консультация с активом влечет за собой процесс внедрения услуг нашего сервиса</p></li>
+      <li class="advantages__item"><p>Повседневная практика показывает, что дальнейшее развитие различных форм</p></li>
+      <li class="advantages__item"><p>Значимость этого настолько очевидна, что консультация наших экспертов помогает</p></li>
     </ul>
   </section>
 
@@ -198,7 +199,7 @@
 
           <p class="accommodation__location">Барселона, Испания</p>
 
-          <button class="btn accommodation__btn">Номера</button>
+          <a href="#" class="btn accommodation__btn">Номера</a>
         </article>
       </li>
 
@@ -224,7 +225,7 @@
 
           <p class="accommodation__location">Барселона, Испания</p>
 
-          <button class="btn accommodation__btn">Номера</button>
+          <a href="#" class="btn accommodation__btn">Номера</a>
         </article>
       </li>
 
@@ -250,7 +251,7 @@
 
           <p class="accommodation__location">Барселона, Испания</p>
 
-          <button class="btn accommodation__btn">Номера</button>
+          <a href="#" class="btn accommodation__btn">Номера</a>
         </article>
       </li>
 
@@ -276,7 +277,7 @@
 
           <p class="accommodation__location">Барселона, Испания</p>
 
-          <button class="btn accommodation__btn">Номера</button>
+          <a href="#" class="btn accommodation__btn">Номера</a>
         </article>
       </li>
 
@@ -302,7 +303,7 @@
 
           <p class="accommodation__location">Барселона, Испания</p>
 
-          <button class="btn accommodation__btn">Номера</button>
+          <a href="#" class="btn accommodation__btn">Номера</a>
         </article>
       </li>
 
@@ -328,7 +329,7 @@
 
           <p class="accommodation__location">Барселона, Испания</p>
 
-          <button class="btn accommodation__btn">Номера</button>
+          <a href="#" class="btn accommodation__btn">Номера</a>
         </article>
       </li>
 
@@ -354,7 +355,7 @@
 
           <p class="accommodation__location">Барселона, Испания</p>
 
-          <button class="btn accommodation__btn">Номера</button>
+          <a href="#" class="btn accommodation__btn">Номера</a>
         </article>
       </li>
 
@@ -380,12 +381,12 @@
 
           <p class="accommodation__location">Барселона, Испания</p>
 
-          <button class="btn accommodation__btn">Номера</button>
+          <a href="#" class="btn accommodation__btn">Номера</a>
         </article>
       </li>
 
       <li class="accommodation__item">
-        <img src="./img/content/jpg/content_img_accommodation_all.jpg" alt="Все варианты" class="accommodation__img">
+        <img src="./img/content/jpg/content_img_accommodation_all.jpg" alt="Все варианты" class="accommodation__img-last">
 
         <a class="accommodation__link" href="#">Посмотреть все варианты</a>
 

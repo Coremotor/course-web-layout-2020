@@ -1,0 +1,39 @@
+.special-offer {
+    position: relative;
+    width: 51%;
+    border-radius: 12px;
+}
+
+.special-offer__title {
+    margin-bottom: 21px;
+}
+
+.special-offer__inner-text {
+    position: absolute;
+    padding: 0 60px 0 42px;
+    top: 330px;
+}
+
+.special-offer__text {
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #ffffff;
+    margin-bottom: 29px;
+}
+
+.special-offer__price {
+    font-size: 35px;
+    color: #ffffff;
+    opacity: 0.49;
+    margin-right: 36px;
+}
+
+.special-offer__details-link {
+    color: #ffcc66;
+}
+
+.special-offer__details-link:after {
+    content: url("../img/after_arrow.png");
+    margin-left: 6px;
+}
