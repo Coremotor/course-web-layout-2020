@@ -1,0 +1,42 @@
+.write-us {
+    display: flex;
+    flex-direction: column;
+    width: 56%;
+    padding: 135px 132px 82px 182px ;
+}
+
+.write-us__title {
+    padding-left: 32px;
+    margin-bottom: 37px;
+}
+
+.write-us__input {
+    border: none;
+    border-radius: 12px;
+    background-color: #fff;
+    width: 100%;
+    padding: 23px 0 25px 18px;
+    margin-bottom: 27px;
+}
+
+.write-us__textarea {
+    border: none;
+    border-radius: 12px;
+    background-color: #fff;
+    resize: none;
+    padding: 16px 0 58px 20px;
+    margin-bottom: 22px;
+}
+
+.write-us__input::placeholder {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.write-us__btn {
+    color: #fff;
+    background-color: #cc9933;
+    padding: 24px 128px;
+}

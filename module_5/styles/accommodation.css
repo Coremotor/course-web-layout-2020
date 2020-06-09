@@ -1,5 +1,5 @@
 .accommodation {
-  margin-bottom: 68px;
+  margin-bottom: 63px;
 }
 
 .accommodation__title {
@@ -27,7 +27,7 @@
 .accommodation__article {
   background-color: #fff;
   border-radius: 0 0 12px 12px;
-  padding: 26px 40px 60px 44px;
+  padding: 33px 40px 56px 44px;
   margin-top: -4px;
 }
 
@@ -57,7 +57,7 @@
 .accommodation__location {
   color: #999999;
   line-height: 32px;
-  margin-bottom: 18px;
+  margin-bottom: 23px;
 }
 
 .accommodation__btn {
