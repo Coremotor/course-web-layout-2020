@@ -82,3 +82,7 @@ p {
   overflow: hidden;
 }
 
+.container {
+  width: 1168px;
+  margin: 0 auto;
+}
