@@ -27,7 +27,7 @@
 .accommodation__article {
   background-color: #fff;
   border-radius: 0 0 12px 12px;
-  padding: 33px 40px 56px 44px;
+  padding: 33px 40px 41px 44px;
   margin-top: -4px;
 }
 
@@ -57,10 +57,11 @@
 .accommodation__location {
   color: #999999;
   line-height: 32px;
-  margin-bottom: 23px;
+  margin-bottom: 12px;
 }
 
 .accommodation__btn {
+  display: inline-block;
   font-weight: 700;
   color: #cc9933;
   background-color: transparent;
@@ -104,6 +105,12 @@
   position: absolute;
   top: 365px;
   left: 39px;
+}
+
+.accommodation__link:before {
+  content: "";
+  position: absolute;
+  width: 100%; height: 100%; top: 0; left: 0;
 }
 
 .accommodation__link:after {

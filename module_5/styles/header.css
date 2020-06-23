@@ -49,6 +49,15 @@
   justify-content: space-between;
 }
 
+.link-hover {
+  border-bottom: 2px solid transparent;
+  transition: .5s;
+}
+
+.link-hover:hover {
+  border-bottom: 2px solid #cc9933;
+}
+
 
 .header__form {
   position: relative;
