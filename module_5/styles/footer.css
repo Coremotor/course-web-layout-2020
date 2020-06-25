@@ -59,10 +59,15 @@
 
 .footer__social-networks-item {
   margin-bottom: 20px;
+  transition: 0.5s;
 }
 
 .footer__social-networks-item:last-child {
   margin-bottom: 0;
+}
+
+.footer__social-networks-item:hover {
+  transform: scale(1.1);
 }
 
 .footer__sprite {

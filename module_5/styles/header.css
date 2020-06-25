@@ -16,12 +16,22 @@
   font-size: 22px;
   font-weight: 700;
   color: #666666;
+  transition: .5s;
+}
+
+.header__phone:hover {
+  color: #cc9933;
 }
 
 .header__link-personal-area {
   position: relative;
   color: #cc9933;
   margin-left: auto;
+  transition: .5s;
+}
+
+.header__link-personal-area:hover {
+  color: #666666;
 }
 
 .header__link-personal-area:before {

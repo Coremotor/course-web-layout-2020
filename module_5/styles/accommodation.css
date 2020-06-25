@@ -22,6 +22,7 @@
 
 .accommodation__img-last {
   border-radius: 12px;
+  margin-bottom: -81px;
 }
 
 .accommodation__article {
@@ -98,13 +99,14 @@
 }
 
 .accommodation__link {
+  display: block;
   font-size: 22px;
   line-height: 32px;
   font-weight: 500;
   color: #ffffff;
-  position: absolute;
   top: 365px;
   left: 39px;
+  margin-left: 33px;
 }
 
 .accommodation__link:before {
