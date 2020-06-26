@@ -7,10 +7,9 @@
 }
 
 .advantages__list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-row-gap: 24px;
-  grid-column-gap: 23px;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 .advantages__item {
@@ -19,9 +18,19 @@
   background-color: white;
   border-radius: 12px;
   padding: 44px 44px 32px 44px;
+  width: 23.5%;
+  margin-right: 23px;
+  margin-bottom: 23px;
 }
 
-/* Может целесообразнее в разметку вынести??? */
+.advantages__item:nth-child(4),
+.advantages__item:last-child {
+  margin-right: 0;
+}
+
+.advantages__item:nth-last-child(-n+4) {
+  margin-bottom: 0;
+}
 
 .advantages__item::before {
   display: block;
