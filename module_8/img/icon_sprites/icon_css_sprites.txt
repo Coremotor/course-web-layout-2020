@@ -1,0 +1,84 @@
+
+x
+.bg-icon_advantages_bath {
+    width: 63px; height: 59px;
+    background: url('css_sprites.png') -187px -10px;
+}
+
+x
+.bg-icon_advantages_heating {
+    width: 69px; height: 59px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+x
+.bg-icon_advantages_key {
+    width: 64px; height: 59px;
+    background: url('css_sprites.png') -10px -89px;
+}
+
+x
+.bg-icon_advantages_parking {
+    width: 61px; height: 59px;
+    background: url('css_sprites.png') -187px -89px;
+}
+
+x
+.bg-icon_advantages_reception {
+    width: 64px; height: 59px;
+    background: url('css_sprites.png') -94px -89px;
+}
+
+x
+.bg-icon_advantages_security_box {
+    width: 68px; height: 59px;
+    background: url('css_sprites.png') -99px -10px;
+}
+
+x
+.bg-icon_advantages_swimming_pool {
+    width: 60px; height: 59px;
+    background: url('css_sprites.png') -10px -168px;
+}
+
+x
+.bg-icon_advantages_towel {
+    width: 60px; height: 59px;
+    background: url('css_sprites.png') -90px -168px;
+}
+
+x
+.bg-icon_facebook {
+    width: 24px; height: 24px;
+    background: url('css_sprites.png') -270px -10px;
+}
+
+x
+.bg-icon_search {
+    width: 22px; height: 22px;
+    background: url('css_sprites.png') -270px -142px;
+}
+
+x
+.bg-icon_social_google_plus {
+    width: 25px; height: 25px;
+    background: url('css_sprites.png') -170px -168px;
+}
+
+x
+.bg-icon_social_vk {
+    width: 24px; height: 24px;
+    background: url('css_sprites.png') -270px -54px;
+}
+
+x
+.bg-icon_tripadvisor {
+    width: 25px; height: 25px;
+    background: url('css_sprites.png') -215px -168px;
+}
+
+x
+.bg-icon_twitter {
+    width: 24px; height: 24px;
+    background: url('css_sprites.png') -270px -98px;
+}

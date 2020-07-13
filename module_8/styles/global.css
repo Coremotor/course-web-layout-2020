@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+  /*Свойства width и height включают в себя значения полей и границ, но не отступов (margin)*/
+  /* scroll-behavior: smooth; */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  /*наследование border-box*/
+}
+
+body {
+  min-width: 320px;
+  /*определение минимальной ширины */
+  margin: 0;
+  /*обнуление внешних отступов у элементов*/
+  background-color: #f1f1f1;
+  /*определение цвета фона*/
+  font-family: "Muller";
+  /*определение шрифта*/
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  /*интерлиньяж (межстрочный интервал) текста*/
+  color: #000;
+  /*цвет текста*/
+}
+
+body.modal-active {
+  overflow: hidden;
+  /*содержания блочного элемента отображается только область внутри элемента, остальное будет скрыто*/
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  /*убирает оформление ссылок*/
+  color: inherit;
+  /*наследование цвета текста*/
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+figure {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.list-style-reset {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.visually-hidden {
+  /*класс для скрытых заголовков*/
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden;
+}
+/* 
+.container {
+  width: 1168px;
+  margin: 0 auto;
+} */

@@ -1,0 +1,107 @@
+.header {
+  padding: 30px 0 70px;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.header__link-main {
+  margin-right: 25px;
+}
+
+.header__phone {
+  font-size: 22px;
+  font-weight: 700;
+  color: #666666;
+  transition: .5s;
+}
+
+.header__phone:hover {
+  color: #cc9933;
+}
+
+.header__link-personal-area {
+  position: relative;
+  color: #cc9933;
+  margin-left: auto;
+  transition: .5s;
+}
+
+.header__link-personal-area:hover {
+  color: #666666;
+}
+
+.header__link-personal-area:before {
+  position: absolute;
+  left: -20px;
+  content: url("../img/login-arrow.png");
+}
+
+.header__inner-navigation-and-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px 21px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.header__navigation {
+  width: 55%;
+}
+
+.header__list {
+  display: flex;
+  color: #333333;
+  justify-content: space-between;
+}
+
+.link-hover {
+  border-bottom: 2px solid transparent;
+  transition: .5s;
+}
+
+.link-hover:hover {
+  border-bottom: 2px solid #cc9933;
+}
+
+
+.header__form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 32%;
+}
+
+.header__form-input {
+  width: 100%;
+  height: 48px;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 15px;
+  padding: 0 60px 0 20px;
+}
+
+.header__form-input::placeholder {
+  font-size: 14px;
+  color: #bebebe;
+}
+
+.header__form-input::-webkit-search-decoration,
+.header__form-input::-webkit-search-cancel-button,
+.header__form-input::-webkit-search-results-button,
+.header__form-input::-webkit-search-results-decoration {
+  display: none;
+}
+
+.header__form-btn {
+  position: absolute;
+  right: 21px;
+  width: 22px;
+  height: 22px;
+  background: url("../img/icon_sprites/icons_css_sprites.png") -270px -142px;
+  border: none;
+}

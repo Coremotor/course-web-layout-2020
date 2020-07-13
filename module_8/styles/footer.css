@@ -1,0 +1,97 @@
+.footer {
+  display: flex;
+  background-color: #333333;
+  border-radius: 12px;
+  background-image: url('../img/sun.png');
+  background-repeat: no-repeat;
+  background-position: bottom 0px left 735px;
+  padding: 41px 52px;
+  margin-bottom: 20px;
+}
+
+.footer__text {
+  width: 30%;
+  line-height: 32px;
+  color: #ffffff;
+  margin-right: 104px;
+}
+
+.footer__copyright {
+  margin-bottom: 32px;
+}
+
+.footer__offer-text {
+  margin-bottom: 32px;
+}
+
+.footer__policity-link {
+  color: #cc9933;
+}
+
+.footer__contacts {
+  margin-right: auto;
+}
+
+.footer__address {
+  line-height: 32px;
+  color: #ffffff;
+  font-style: normal;
+  margin-bottom: 28px;
+}
+
+.footer__phones-list {
+  margin-bottom: 24px;
+}
+
+.footer__phone-link {
+  line-height: 24px;
+  color: #cc9933;
+}
+
+.footer__email-link {
+  line-height: 24px;
+  color: #cc9933;
+}
+
+.footer__social-networks-list {
+  margin-top: 7px;
+}
+
+.footer__social-networks-item {
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+.footer__social-networks-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer__social-networks-item:hover {
+  transform: scale(1.1);
+}
+
+.footer__sprite {
+  display: block;
+  width: 25px; 
+  height: 25px;
+}
+
+.footer__tripadvisor-link {
+  background: url('../img/icon_sprites/icons_css_sprites.png') -215px -168px;
+}
+
+.footer__twitter-link {
+  background: url('../img/icon_sprites/icons_css_sprites.png') -270px -98px;
+}
+
+.footer__facebook-link {
+  background: url('../img/icon_sprites/icons_css_sprites.png') -270px -10px;
+}
+
+.footer__vk-link {
+  background: url('../img/icon_sprites/icons_css_sprites.png') -270px -54px;
+}
+
+.footer__google-plus-link {
+  background: url('../img/icon_sprites/icons_css_sprites.png') -170px -168px;
+}
