@@ -8,6 +8,10 @@
     margin-bottom: 21px;
 }
 
+.special-offer__img {
+    height: 90%;
+}
+
 .special-offer__inner-text {
     position: absolute;
     padding: 0 60px 0 42px;
