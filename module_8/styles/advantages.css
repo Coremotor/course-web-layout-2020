@@ -1,5 +1,5 @@
 .advantages {
-  margin-bottom: 67px;
+  margin-bottom: 50px;
 }
 
 .advantages__title {
@@ -11,7 +11,11 @@
   color: #333333;
   background-color: white;
   border-radius: 12px;
-  padding: 44px 44px 32px 44px;
+  max-width: 23.5%;
+  padding: 44px 30px 30px 44px;
+  margin-right: 8px;
+  margin-left: 8px;
+  margin-bottom: 16px;
 }
 
 .advantages__item::before {

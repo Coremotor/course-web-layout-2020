@@ -6,12 +6,6 @@
   margin-bottom: 22px;
 }
 
-/* .accommodation__list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 25px;
-} */
-
 .accommodation__item {
   margin-bottom: 25px;
 }
@@ -37,7 +31,7 @@
 .accommodation__article {
   background-color: #fff;
   border-radius: 0 0 12px 12px;
-  padding: 33px 30px 41px;
+  padding: 33px 28px 41px;
   margin-top: -4px;
 }
 
