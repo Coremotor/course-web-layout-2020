@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ffda797-042f-47ea-82e4-fdbbb54b268b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/adaptive_accessibility_layout.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/course-web-layout-2020.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1h65XiyfznDsjZsRt05KBfilhfr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my-projects\course-web-layout-2020\adaptive_accessibility_layout" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ffda797-042f-47ea-82e4-fdbbb54b268b" name="Default Changelist" comment="" />
+      <created>1599318744843</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599318744843</updated>
+      <workItem from="1599318747028" duration="1296000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1605" y="539" key="#File_Watchers" timestamp="1599319064994">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="1605" y="539" key="#File_Watchers/0.0.3440.1410@0.0.3440.1410" timestamp="1599319064994" />
+    <state x="1500" y="527" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1599318977799">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="1500" y="527" key="#com.intellij.ide.macro.MacrosDialog/0.0.3440.1410@0.0.3440.1410" timestamp="1599318977799" />
+    <state x="1389" y="483" width="662" height="678" key="EditFileWatcherDialog" timestamp="1599319051476">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="1389" y="483" width="662" height="678" key="EditFileWatcherDialog/0.0.3440.1410@0.0.3440.1410" timestamp="1599319051476" />
+    <state x="1500" y="577" key="FileChooserDialogImpl" timestamp="1599318987294">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="1500" y="577" key="FileChooserDialogImpl/0.0.3440.1410@0.0.3440.1410" timestamp="1599318987294" />
+    <state x="1221" y="350" key="SettingsEditor" timestamp="1599319053342">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="1221" y="350" key="SettingsEditor/0.0.3440.1410@0.0.3440.1410" timestamp="1599319053342" />
+  </component>
+</project>
