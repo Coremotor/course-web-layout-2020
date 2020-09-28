@@ -1,0 +1,45 @@
+.hero {
+	margin-bottom: 194px;
+
+  &__inner {
+    max-width: 1800px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  &__inner-column {
+    display: flex;
+    flex-direction: column;
+		align-items: flex-start;
+		padding-top: 47px;
+    padding-left: 78px;
+    padding-right: 876px;
+    margin-top: -564px;
+  }
+
+  &__title {
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: $white;
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+		color: $white;
+		margin-bottom: 104px;
+  }
+
+  &__link {
+    display: inline-block;
+    font-size: 23px;
+		font-weight: 700;
+		letter-spacing: 1.4px;
+    color: $white;
+    background-color: $orange;
+    padding: 26px 40px;
+  }
+}

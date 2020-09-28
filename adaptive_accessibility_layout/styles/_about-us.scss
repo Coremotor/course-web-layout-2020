@@ -1,0 +1,77 @@
+.about-us {
+  margin-bottom: 103px;
+
+  &__new-perspectives {
+    width: 49.2%;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    padding-right: 540px;
+    margin-bottom: 42px;
+  }
+
+  &__new-perspectives-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $black;
+    opacity: 0.5;
+    padding: 40px 68px 42px 54px;
+    margin-top: -200px;
+  }
+
+  &__new-perspectives-text {
+    color: $white;
+    font-weight: 700;
+    line-height: 31px;
+    padding-right: 68px;
+  }
+
+  &__new-perspectives-link {
+    display: inline-block;
+    color: $white;
+    border: 3px solid $orange;
+    letter-spacing: 2px;
+    padding: 20px 33px;
+  }
+
+  &__articles-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 49.2%;
+  }
+
+  &__article {
+    border: 1px solid $border;
+    background-repeat: no-repeat;
+    padding: 69px 115px 65px 300px;
+
+    &:first-child {
+      background-image: url("../img/about_us_bg_2.svg");
+      background-position: 62px 73px;
+      margin-bottom: 30px;
+    }
+
+    &:last-child {
+      background-image: url("../img/about_us_bg_1.svg");
+      background-position: 62px 55px;
+    }
+  }
+
+  &__article-title {
+    margin-bottom: 5px;
+  }
+
+  &__article-text {
+    padding-right: 30px;
+  }
+}

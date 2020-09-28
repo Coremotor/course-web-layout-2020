@@ -1,0 +1,46 @@
+.header {
+	padding: 14px 0;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo-link {
+    margin-right: auto;
+	}
+	
+	&__menu {
+		margin-right: 70px;
+	}
+
+  &__list {
+    font-weight: 600;
+		font-size: 18px;
+		letter-spacing: 1px;
+		color: $textMain;
+  }
+
+  &__list-item:not(:last-child) {
+    margin-right: 83px;
+  }
+
+  &__list {
+    display: flex;
+		align-items: center;
+		padding-top: 8px;
+  }
+
+  &__search-btn {
+    width: 27px;
+    height: 27px;
+    background-color: transparent;
+    background-image: url("../img/header_search.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+		border: none;
+		margin-top: 6px;
+    margin-right: 11px;
+  }
+}
