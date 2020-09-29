@@ -1,5 +1,5 @@
 .faq {
-  margin-bottom: 100px;
+  margin-bottom: 103px;
 
   &__title {
     margin-bottom: 38px;
@@ -10,15 +10,20 @@
     align-items: center;
     justify-content: space-between;
     padding: 31px 0 32px 6px;
-    border-top: 1px solid $border;
+    border-top: 1px solid $gray;
 
     &:last-child {
-      border-bottom: 1px solid $border;
+      border-bottom: 1px solid $gray;
     }
   }
 
   &__item-title {
     line-height: 32px;
+  }
+
+  &__slash {
+    color: $gray;
+    font-size: 32px;
   }
 
   &__item-btn {

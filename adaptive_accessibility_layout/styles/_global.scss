@@ -41,9 +41,14 @@ img {
 }
 
 .visibility-hidden {
-  width: 0;
-  height: 0;
-  visibility: hidden;
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden;
 }
 
 .second-title {
@@ -69,4 +74,13 @@ img {
   max-width: 1800px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
 }

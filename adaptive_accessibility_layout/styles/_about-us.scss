@@ -19,6 +19,15 @@
     margin-bottom: 42px;
   }
 
+  &__tooltip {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../img/about_us_tooltip.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   &__new-perspectives-inner {
     display: flex;
     align-items: center;
@@ -26,7 +35,7 @@
     background-color: $black;
     opacity: 0.5;
     padding: 40px 68px 42px 54px;
-    margin-top: -200px;
+    margin-top: -175px;
   }
 
   &__new-perspectives-text {
@@ -51,7 +60,7 @@
   }
 
   &__article {
-    border: 1px solid $border;
+    border: 1px solid $gray;
     background-repeat: no-repeat;
     padding: 69px 115px 65px 300px;
 

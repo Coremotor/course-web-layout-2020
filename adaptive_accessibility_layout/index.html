@@ -2,10 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Евклид</title>
     <link rel="stylesheet" href="./styles/styles.min.css" />
@@ -78,7 +75,7 @@
         подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых
         оппонентов требует от нас анализа как самодостаточных, так и внешне
         зависимых концептуальных решений! Следует отметить, что
-        высококачественный прототип <span></span> будущего проекта
+        высококачественный прототип <span class="about-us__tooltip"></span> будущего проекта
         предопределяет высокую востребованность позиций, занимаемых участниками
         в отношении поставленных задач. Мы вынуждены отталкиваться от того, что
         высококачественный прототип будущего проекта способствует повышению
@@ -265,21 +262,21 @@
               <a
                 href="#"
                 class="footer__social-networks-link footer__social-networks-link_FB"
-                >FB</a
+                ></a
               >
             </li>
             <li class="footer__social-networks-item">
               <a
                 href="#"
                 class="footer__social-networks-link footer__social-networks-link_VK"
-                >VK</a
+                ></a
               >
             </li>
             <li class="footer__social-networks-item">
               <a
                 href="#"
                 class="footer__social-networks-link footer__social-networks-link_INSTA"
-                >I</a
+                ></a
               >
             </li>
           </ul>
@@ -293,15 +290,19 @@
           <h2 class="second-title footer__form-title">Оставить заявку</h2>
 
           <fieldset class="footer__form-bid">
-            <label class="visibility-hidden footer__label-for-fio-field" for="footer__fio-field"
+            <label
+              class="visibility-hidden footer__label-for-fio-field"
+              for="footer__fio-field"
               >Фамилия, имя и отчество</label
             >
             <input
               id="footer__fio-field"
+              name="bidFIO"
               type="text"
-              class="footer__form-fio-field"
+              class="footer__form-fio-field footer__form-fields"
               placeholder="Фамилия, имя и отчество*"
             />
+
             <label
               class="visibility-hidden footer__label-for-email-field"
               for="footer__email-field"
@@ -309,19 +310,21 @@
             >
             <input
               id="footer__email-field"
+              name="bidEmail"
               type="email"
-              class="footer__form-email-field"
+              class="footer__form-email-field footer__form-fields"
               placeholder="E-mail*"
             />
-            <label class="visibility-hidden footer__label-for-text-field" for="footer__text-field"
+
+            <label
+              class="visibility-hidden footer__label-for-text-field"
+              for="footer__text-field"
               >Сообщение</label
             >
             <textarea
-              name=""
+              name="bidText"
               id="footer__text-field"
-              cols="30"
-              rows="10"
-              class="footer__form-text-field"
+              class="footer__form-text-field footer__form-fields"
               placeholder="Сообщение"
             ></textarea>
           </fieldset>
@@ -330,15 +333,17 @@
             <button type="submit" class="footer__form-btn">
               Отправить данные
             </button>
+
+            <input
+              type="checkbox"
+              name="consent"
+              id="footer-checkbox"
+              class="footer__form-checkbox"
+              checked
+            />
             <label class="footer__label-for-checkbox" for="footer-checkbox"
               >Согласен на обработу данных</label
             >
-            <input
-              type="checkbox"
-              name=""
-              id="footer-checkbox"
-              class="footer__form-checkbox"
-            />
           </fieldset>
         </form>
         <p class="footer__text">

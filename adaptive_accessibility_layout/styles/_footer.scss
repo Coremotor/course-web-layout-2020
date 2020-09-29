@@ -1,18 +1,132 @@
 .footer {
+  background-color: $footerBg;
+  padding: 48px 0 80px;
+
   &__inner {
     display: flex;
+    justify-content: space-between;
   }
 
   &__wrapper {
     display: flex;
     flex-direction: column;
-	}
-	
+    margin-right: 114px;
+  }
 
+  &__logo-link {
+    margin-bottom: 19px;
+  }
 
+  &__menu {
+    color: $gray;
+    font-weight: 600;
+    font-size: 18px;
+  }
 
+  &__item {
+    margin-bottom: 16px;
+    letter-spacing: 1px;
 
-	&__social-networks-list {
-		display: flex;
-	}
+    &:last-child {
+      margin-bottom: 118px;
+    }
+  }
+
+  &__social-networks-list {
+    display: flex;
+    margin-top: -4px;
+  }
+
+  &__social-networks-item:not(:last-child) {
+    margin-right: 26px;
+  }
+
+  &__social-networks-link {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &_FB {
+      background-image: url("../img/footer_fb_icon.svg");
+    }
+
+    &_VK {
+      background-image: url("../img/footer_vk_icon.svg");
+    }
+
+    &_INSTA {
+      background-image: url("../img/footer_instagram_icon.svg");
+    }
+  }
+
+  &__form {
+    width: 32.2%;
+  }
+
+  &__form-title {
+    color: $gray;
+    font-weight: 4000;
+    padding-top: 12px;
+    margin-bottom: 20px;
+  }
+
+  &__form-fields {
+    width: 100%;
+    color: $gray;
+    background-color: $fieldBg;
+    border: none;
+  }
+
+  &__form-bid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  &__form-fio-field {
+    padding: 22px 24px;
+    margin-bottom: 25px;
+  }
+
+  &__form-email-field {
+    padding: 22px 24px;
+    margin-bottom: 25px;
+  }
+
+  &__form-action {
+    width: 100%;
+  }
+
+  &__form-text-field {
+    resize: none;
+    height: 150px;
+    padding: 22px 24px;
+  }
+
+  &__form-btn {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: $white;
+    background-color: $orange;
+    padding: 20px 52px;
+    margin-right: 18px;
+  }
+
+  &__label-for-checkbox {
+    font-size: 16px;
+    color: $gray;
+    letter-spacing: 1px;
+  }
+
+  &__text {
+    width: 20.5%;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 1.3px;
+    padding-top: 78px;
+  }
 }
