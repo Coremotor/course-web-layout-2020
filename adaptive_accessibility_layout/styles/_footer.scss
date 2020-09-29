@@ -1,0 +1,18 @@
+.footer {
+  &__inner {
+    display: flex;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+	}
+	
+
+
+
+
+	&__social-networks-list {
+		display: flex;
+	}
+}
